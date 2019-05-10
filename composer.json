@@ -1,7 +1,7 @@
 {
     "name": "fed/std-ui-camera",
     "type": "ewma-module",
-    "description": "ewma webcam",
+    "description": "ewma webcam ui",
     "authors": [
         {
             "name": "fed",
@@ -10,6 +10,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "fed/ewma-module-installer-plugin": "~0.0.1"
+        "fed/ewma-module-installer-plugin": "~0.0.1",
+        "fed/plugins-instascan": "~0.1"
     }
 }
